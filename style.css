@@ -1,0 +1,50 @@
+body {
+	background-color: rgb(236, 213, 224);
+	color: rgb(177, 2, 90);
+	font-size: 15px;
+}
+
+h1 {
+	color: rgb(107, 6, 57);
+	font-family: Comic Sans Ms;
+	font-weight: 80;
+	letter-spacing: 2px;
+	font-size: 50px;
+	text-align: center;
+}
+
+h2 {
+	color: rgb(107, 6, 57);
+	font-family: Comic Sans Ms;
+	letter-spacing: 2px;
+	font-size: 25px;
+}
+a {
+	color: black;
+	font-weight: 900;
+	transition: color 0.3s ease;
+	text-decoration: none;
+}
+a:hover {
+	color: hotpink;
+}
+
+body {
+	font-family: Comic Sans Ms;
+}
+
+img {
+	text-align: center;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
